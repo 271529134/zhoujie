@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/dialog_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:textSize="15sp"
+        android:text="我就想试试"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:id="@+id/dialog_button"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:text="随便写写"
+        android:textSize="20sp" />
+
+</LinearLayout>
